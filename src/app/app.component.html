@@ -1,0 +1,48 @@
+<body>
+<div class="bodyz">
+<br>
+<h1>Nimi</h1>
+<br>
+</div>
+</body>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
+
+
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Sissejuhatus Informaatikasse</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a routerLink="/">Pealeht</a></li>
+      <li><a routerLink="alaleht1">Ülesanne 1</a></li>
+      <li><a routerLink="alaleht2">Ülesanne 2</a></li>
+      <li><a routerLink="alaleht3">Ülesanne 3</a></li>
+      <li><a routerLink="alaleht4">Ülesanne 4</a></li>
+      <!--li><a routerLink="/login">Login</a></li-->
+      
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<router-outlet></router-outlet>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>

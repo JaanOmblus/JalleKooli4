@@ -1,0 +1,26 @@
+
+.body {
+  background-color: blue;
+}
+
+.bodyx {
+  margin-left: 20px;
+}
+
+.bodyz {
+  background-color: #caceced8;
+}
+
+.container {
+  padding-left: 30px;
+}
+
+.active {
+  color: orange;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
